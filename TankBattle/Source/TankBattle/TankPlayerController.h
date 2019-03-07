@@ -16,7 +16,7 @@ class TANKBATTLE_API ATankPlayerController : public APlayerController
 	GENERATED_BODY()
 
 private:
-	// members
+	// properties
 	
 	// Returns an OUT parameter, true if it hits landscape
 	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
