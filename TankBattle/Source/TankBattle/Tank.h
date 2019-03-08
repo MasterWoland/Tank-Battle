@@ -25,8 +25,8 @@ public:
 
 protected:
 	// properties
-	UPROPERTY(EditDefaultsOnly)
-	class UTankAimingComponent* TankAimingComponent = nullptr;
+	UPROPERTY(VisibleDefaultsOnly)
+	class UTankAimingComponent* TankAimingComponent;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -10,6 +10,8 @@ ATank::ATank()
 	PrimaryActorTick.bCanEverTick = true;
 
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(TEXT("Aiming Component"));
+
+	UE_LOG(LogTemp, Warning, TEXT("TANK: Tank Aiming Component: $s"), *TankAimingComponent->GetName());
 }
 
 
